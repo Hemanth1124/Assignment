@@ -1,0 +1,72 @@
+.apple{
+    height: 100vh;
+}
+.ball{
+    
+    position: relative;
+    top: 10%;
+}
+.cat{
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    text-align: end;
+    border: 5px solid red ;
+}
+.dog1 p, .dog2 p, .dog3 p{
+    text-align: start;
+}
+.dog1, .dog2, .dog3{
+    background-color: skyblue;
+    min-height: 50px;
+    width: 445px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    float: left;
+}
+.elephant{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+@media(max-width: 727px)
+{
+    .dog1{
+        width:96%;
+        height: 50%;
+    }
+    .dog2{
+        width:96%;
+    }
+    .dog3{
+        width:96%;
+    }
+}
+@media(min-width: 728px) and (max-width: 992px)
+{
+    .dog1{
+        width:46%;
+    }
+    .dog2{
+        width:46%;
+    }
+    .dog3{
+        width:96%;
+    }
+}
+@media(min-width: 993px)
+{
+    .dog1{
+        width:28.5%;
+    }
+    .dog2{
+        width:28.5%;
+    }
+    .dog3{
+        width:28.5%;
+    }
+}
+
